@@ -23,53 +23,60 @@ body{
     font-size: 2.5rem;
 }
 /* searchbar */
+/* Style for the search box container */
 .search-container {
-    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-}
-
-form {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* border: 2px solid black; */
-    padding: 0px;
-    border-radius: 7px;
-    max-width: 600px;
-    width: 100%;
-}
-
-input[type="text"] {
-  width: 100%;
-  padding: 6px;
-  border: 1px solid black;
-  border-radius: 26px;
-  outline: none;
-}
-button{
-    background-color: #ffffff;
-    color: white;
-    padding: 4px 6px;
-    /* margin: 2px 2px; */
-    border: none;
+    position: absolute;
+    top: 1.5%;
+    left: 34%;
+    /* background-color: #f2f2f2; */
+    border: 1px solid #ccc;
+    border-radius: 37px;
+    padding: 3px;
+    width: 35%;
+  }
+  /* Style for the search icon */
+  .search-icon {
+  width: 7%;
+  text-align: center;
+  }
+  /* Center the search icon vertically and horizontally */
+  .search-icon i {
+  line-height: 30px;
+  }
+  
+  /* Style for the search input */
+  .search-input {
+  border: none;
+  width: 80%;
+  padding: 5px;
+  }
+  /* Login */
+  .login{
+    width: 8%;
+    align-content : left;
+    background-color: white;
+    color: black;
+    padding: 5px 0;
+    margin  : 0 70px;
+     border: 3px solid black;
+    border-radius: 26px;
     cursor: pointer;
-    border-radius: 0px;
-    margin-left: 0px;
-}
-
-button:hover {
-    background-color: #cbcbcb;
-}
-
-@media screen and (max-width: 600px) {
-    form {
-        flex-direction: column;
-        /* align-items; */
-    }
-}
+    text-align: center;
+    text-size-adjust: 80px;
+     position : absolute;
+    top : 13px;
+     left : 97%;
+   margin-left : -125px;
+   height:   6%;
+   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  }
+  .login:hover{
+    background-color: black;
+    color: white;
+    /* border: 2px solid black; */
+    /* box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3); */
+  }
 li{
     list-style: none;
 }
